@@ -3,6 +3,7 @@ import sys
 import pickle
 import streamlit as st
 import numpy as np
+from scipy.sparse import csr_matrix
 from books_recommender.logger.log import logging
 from books_recommender.config.configuration import AppConfiguration
 from books_recommender.pipeline.training_pipeline import TrainingPipeline
