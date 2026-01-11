@@ -68,7 +68,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest . 
+docker build -t Nishit-435/stapp:latest . 
 ```
 
 ```bash
@@ -76,7 +76,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 entbappy/stapp 
+docker run -d -p 8501:8501 Nishit-435/stapp 
 ```
 
 ```bash
@@ -96,15 +96,15 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest 
+docker push Nishit-435/stapp:latest 
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi Nishit-435/stapp:latest
 ```
 
 ```bash
-docker pull entbappy/stapp
+docker pull Nishit-435/stapp
 ```
 
 
